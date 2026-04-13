@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-API_KEY = "DEMO_KEY"
+API_KEY = "YOUR_API_KEY"
 
 @app.route("/")
 def index():
